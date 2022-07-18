@@ -2,11 +2,18 @@ body {
     margin: 0;
     padding: 0;
     color: white;
-    background-color: #C71585;
+    background-color: #000000;
+}
+
+html {
+    box-sizing: border-box;
+}
+*, *::before, * ::after {
+    box-sizing: inherit;
 }
 
 .nav {
-    background-color: #FF69B4;
+    background-color: #9c7287;
     display: flex;
     padding: 20px 10px;
 }
@@ -17,4 +24,15 @@ body {
 
 ul {
     list-style: none;
+}
+
+.header {
+    background-color: rgb(120, 90, 127);
+    margin-top: -23px;
+}
+
+.signup {
+    background-color: #9c7287;
+    padding: 10px;
+    
 }
