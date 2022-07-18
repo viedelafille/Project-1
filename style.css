@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #C71585;
+}
+
+.nav {
+    background-color: #FF69B4;
+    display: flex;
+    padding: 20px 10px;
+}
+
+.push-left {
+    margin-left: auto;
+}
+
+ul {
+    list-style: none;
+}
