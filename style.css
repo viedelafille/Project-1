@@ -32,6 +32,10 @@ ul {
     list-style: none;
 }
 
+.nav a:hover {
+    color: black;
+}
+
 .header {
     background-color: #c091a8;
     margin-top: -23px;
