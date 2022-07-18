@@ -20,8 +20,8 @@ html {
     font-size: 25px;
 }
 
-.nav a,
-.header a {
+.nav a
+{
     text-decoration: none;
 }
 
@@ -86,6 +86,7 @@ height: auto;
 padding-top: 40px;
 }
 
+
 .image p {
     font-size: 10px;
 }
@@ -120,12 +121,45 @@ color: black;
     flex-wrap: wrap;
     border-radius: 50%;
     background-color: #9c7287;
-
 }
 
 a {
-color: white;
+    color: white;
 }
+
+.mid-images {
+    display: flex;
+}
+
+.mid-images img {
+    width:300px;
+    height: auto;
+}
+
+.mid-images .img3,
+.mid-images .img4 {
+    width: 300px;
+    height: 400px;
+}
+
+.caption {
+    font-size: 20px;
+}
+
+.caption a {
+    text-decoration: none;
+}
+
+.caption a:hover,
+.source a:hover {
+    color: #9c7287;
+    text-decoration: none;
+}
+
+.source {
+    font-size: 10px;
+}
+
 
 .signup button:hover {
     background-color:#805d6e;
@@ -146,4 +180,8 @@ color: white;
 
 .backtotop a {
     text-decoration: none;
+}
+
+.backtotop a:hover {
+    color: black;
 }
