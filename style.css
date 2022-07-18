@@ -36,6 +36,49 @@ ul {
 .header {
     background-color: rgb(120, 90, 127);
     margin-top: -23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+.header-text {
+    height: 220px;
+    width: 450px;
+    text-align:left;
+    padding: 0 30px;
+}
+
+.header button {
+    background-color: #9c7287;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 10%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.header p {
+    font-size: 20px;
+}
+
+.image img {
+width: 300px;
+height: auto;
+padding-top: 40px;
+}
+
+.image p {
+    font-size: 10px;
+}
+
+.image a:hover,
+.header button:hover {
+color: black;
 }
 
 .signup {
