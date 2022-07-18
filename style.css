@@ -20,6 +20,11 @@ html {
     font-size: 25px;
 }
 
+.nav a,
+.header a {
+    text-decoration: none;
+}
+
 .nav div {
     padding: 0 25px 20px 0;
 }
@@ -60,6 +65,7 @@ ul {
     color: white;
     border: none;
     border-radius: 10%;
+    width: 100px;
 }
 
 h1 {
@@ -125,3 +131,19 @@ color: white;
     background-color:#805d6e;
 }
 
+.backtotop {
+    background-color: #805d6e;
+    border-radius: 50%;
+    width: 80px;
+    height: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: right;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
+.backtotop a {
+    text-decoration: none;
+}
