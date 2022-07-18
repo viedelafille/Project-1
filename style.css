@@ -33,6 +33,37 @@ ul {
 
 .signup {
     background-color: #9c7287;
-    padding: 10px;
-    
+    padding: 10px 213px;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    width: 990px;
+    height: 150px;
+    margin-left: 150px;
 }
+
+.signup-text {
+    margin: auto;
+    text-align: center;
+}
+
+.signup button {
+    border: 2px solid #805d6e;
+    padding: 10px;
+    font-size: 15px;
+    width: 100px;
+    height: 100px;
+    flex-wrap: wrap;
+    border-radius: 50%;
+    background-color: #9c7287;
+
+}
+
+a {
+color: white;
+}
+
+.signup button:hover {
+    background-color:#805d6e;
+}
+
