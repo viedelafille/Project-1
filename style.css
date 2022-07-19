@@ -127,6 +127,10 @@ a {
     color: white;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 .mid-images {
     display: flex;
 }
@@ -208,4 +212,8 @@ a {
 
 .backtotop a:hover {
     color: black;
+}
+
+.diff-color-name {
+    color: #c091a8;
 }
