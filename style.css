@@ -160,6 +160,30 @@ a {
     font-size: 10px;
 }
 
+.middle2 {
+    background-color: #c091a8;
+    padding: 10px 213px;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 700px;
+    height: 300px;
+    margin: 20px 0 20px 300px;
+}
+
+.verse {
+    font-size: 25px;
+}
+.eph2-8-9 {
+    font-size: 22px;
+    margin-top: -20px;
+}
+
+.eph2-8-9 a:hover {
+    text-decoration: none;
+    color: black;
+}
 
 .signup button:hover {
     background-color:#805d6e;
